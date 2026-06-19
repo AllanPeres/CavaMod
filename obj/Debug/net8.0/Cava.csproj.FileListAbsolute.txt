@@ -1,0 +1,12 @@
+/Users/allanperes/Library/Application Support/Terraria/tModLoader/ModSources/Cava/bin/Debug/net8.0/Cava.deps.json
+/Users/allanperes/Library/Application Support/Terraria/tModLoader/ModSources/Cava/bin/Debug/net8.0/Cava.dll
+/Users/allanperes/Library/Application Support/Terraria/tModLoader/ModSources/Cava/bin/Debug/net8.0/Cava.pdb
+/Users/allanperes/Library/Application Support/Terraria/tModLoader/ModSources/Cava/obj/Debug/net8.0/Cava.csproj.AssemblyReference.cache
+/Users/allanperes/Library/Application Support/Terraria/tModLoader/ModSources/Cava/obj/Debug/net8.0/Cava.GeneratedMSBuildEditorConfig.editorconfig
+/Users/allanperes/Library/Application Support/Terraria/tModLoader/ModSources/Cava/obj/Debug/net8.0/Cava.AssemblyInfoInputs.cache
+/Users/allanperes/Library/Application Support/Terraria/tModLoader/ModSources/Cava/obj/Debug/net8.0/Cava.AssemblyInfo.cs
+/Users/allanperes/Library/Application Support/Terraria/tModLoader/ModSources/Cava/obj/Debug/net8.0/Cava.csproj.CoreCompileInputs.cache
+/Users/allanperes/Library/Application Support/Terraria/tModLoader/ModSources/Cava/obj/Debug/net8.0/Cava.dll
+/Users/allanperes/Library/Application Support/Terraria/tModLoader/ModSources/Cava/obj/Debug/net8.0/refint/Cava.dll
+/Users/allanperes/Library/Application Support/Terraria/tModLoader/ModSources/Cava/obj/Debug/net8.0/Cava.pdb
+/Users/allanperes/Library/Application Support/Terraria/tModLoader/ModSources/Cava/obj/Debug/net8.0/ref/Cava.dll

@@ -1,0 +1,28 @@
+# This file will automatically update with entries for new content after a build and reload.
+# Please read https://github.com/tModLoader/tModLoader/wiki/Localization to learn more about localization and these files.
+
+Items: {
+	Cava: {
+		DisplayName: Cava
+		Tooltip:
+			'''
+			Template of an item
+			Replacing this tooltip is duty 
+			It's snowing on Mt.Fuji
+			'''
+	}
+
+	CavaStaff: {
+		DisplayName: Cava Staff
+		Tooltip: ""
+	}
+}
+
+Buffs: {
+	CavaBuff: {
+		DisplayName: Cava Buff
+		Description: Mods.Cava.Buffs.CavaBuff.Description
+	}
+}
+
+Projectiles.CavaMinion.DisplayName: Cava Minion
