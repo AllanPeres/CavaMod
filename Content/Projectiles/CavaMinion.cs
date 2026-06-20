@@ -24,7 +24,7 @@ public class CavaMinion: ModProjectile
     public override void SetDefaults()
     {
         Projectile.width = 32;
-        Projectile.height = 28;
+        Projectile.height = 32;
         Projectile.friendly = true;
         Projectile.minion = true;
         Projectile.DamageType = DamageClass.Summon;
@@ -33,8 +33,8 @@ public class CavaMinion: ModProjectile
 
         // Ground movement setup
         Projectile.tileCollide = true; 
-        Projectile.aiStyle = ProjAIStyleID.CommonFollow; 
-        AIType = ProjectileID.BabySpider; 
+        Projectile.aiStyle = ProjAIStyleID.Pet; 
+        AIType = ProjectileID.BabySlime; 
 
         // Initialize damage cadence rule tracking
         Projectile.usesLocalNPCImmunity = true;     
@@ -70,19 +70,6 @@ public class CavaMinion: ModProjectile
         }
 
         Projectile.timeLeft = 2;
-        
-        // --- ADD THIS TO MANUALLY PUSH THE MINION FARTHER AWAY ---
-        // If the minion is not chasing an enemy and is close to the player
-        var distanceToPlayer = Vector2.Distance(Projectile.Center, player.Center);
-        if (!(distanceToPlayer < 200f) || Projectile.velocity.Y != 0f) return true;
-        // Calculate which side of the player the minion is on
-        var sideSign = (Projectile.Center.X < player.Center.X) ? -1 : 1;
-        
-        // If it gets too close to your feet (closer than 100 pixels), gently push it outward
-        if (distanceToPlayer < 100f)
-        {
-            Projectile.velocity.X = MathHelper.Lerp(Projectile.velocity.X, 4f * sideSign, 0.05f);
-        }
 
         return true; 
     }
@@ -150,7 +137,7 @@ public class CavaMinion: ModProjectile
         // Make sure the sprite mirrors to match its path vector direction
         if (Projectile.velocity.X != 0f)
         {
-            Projectile.spriteDirection = Projectile.velocity.X > 0 ? 1 : -1;
+            Projectile.spriteDirection = Projectile.velocity.X > 0 ? -1 : 1;
         }
     }
 
