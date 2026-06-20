@@ -23,9 +23,10 @@ public class GrowthPlayer : ModPlayer
     
     public override void ModifyWeaponDamage(Item item, ref StatModifier damage)
     {
-        if (item.type == ModContent.ItemType<Items.CavaStaff>())
-        {
-            damage += (CavaKills * 2) / (float) item.damage;
-        }
+        if (item.type != ModContent.ItemType<Items.CavaStaff>() ||
+            item.ModItem is not Items.CavaStaff staffInstance) return;
+        long growthTiers = CavaKills / 5;
+        var flatDamageBonus = growthTiers * staffInstance.GrowthAfterFiveKills;
+        damage += flatDamageBonus / (float) item.damage;
     }
 }

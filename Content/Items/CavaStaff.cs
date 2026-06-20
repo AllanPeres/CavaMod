@@ -16,6 +16,8 @@ namespace Cava.Content.Items
 
 		public long UniqueInstanceId = 0;
 		
+		public long GrowthAfterFiveKills = 2;
+		
 		public override void SetDefaults()
 		{
 			Item.damage = 10;
