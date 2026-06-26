@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cava")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b5123aebbbb71a2ad77fd8067ee7da617df4f1b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cava")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cava")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
